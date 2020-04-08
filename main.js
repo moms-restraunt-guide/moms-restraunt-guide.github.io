@@ -36,7 +36,7 @@
     const table = new Vue({
       el: '#table',
       data: {
-        restraunts: 
+        restraunts: restrData // from restraunts-data.js
       },
       computed: {
           dealList() {
