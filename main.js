@@ -1,4 +1,5 @@
 //main.js
+import restrData from 'restraunt-data.js';
     const date = new Date();
     const dateDayId = date.getDay();
     const shuffle = function (array) {
