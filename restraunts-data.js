@@ -1,5 +1,5 @@
 //restraunts.js
-[
+const restrData = [
 			 {
 			   "name": "Wendy's",
 			   "location": "Benton",
@@ -49,4 +49,4 @@
 			   "dow": " Everyday",
 			   "dow_id": 8
 			 }
-	    ]
+	    ];
