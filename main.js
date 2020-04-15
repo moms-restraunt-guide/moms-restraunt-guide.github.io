@@ -99,8 +99,29 @@
 			"location": "Bryant",
 			"deal": "Happy Hour from 2:00p to 5:00p",
 			"dow": "Everyday",
-            "dow_id": 8
+                        "dow_id": 8
 		  },
+	    	  {
+			   "name": "Burger King",
+			   "location": " All",
+			   "deal": " $1 8pc Chicken Nuggets",
+			   "dow": " Everyday",
+			   "dow_id": 8
+			 },
+			 {
+			   "name": "Burger King",
+			   "location": " All",
+			   "deal": " 5 for $4",
+			   "dow": " Everyday",
+			   "dow_id": 8
+			 },
+			 {
+			   "name": "McDonald's",
+			   "location": " Bryant",
+			   "deal": " 4 for $4",
+			   "dow": " Everyday",
+			   "dow_id": 8
+			 },
         ]
 
 
