@@ -7,35 +7,30 @@
   <title>The Mom Restraunt Guide</title>
   <meta name="description" content="The Mom Restraunt Guide">
   <meta name="author" content="Peter Zaffina">
-  <meta name="theme-color" content="#3393ff">
 
-  <!--<link rel="stylesheet" href="css/styles.css?v=1.0">-->
-  <link rel="manifest" href='data:application/manifest+json,{ "name": "The Mom Restraunt Guide", "short_name": "Restraunt Guide", "description": "a simple guide that lists favorite restraunts", "display": "minimal-ui", "theme_color": "#3393ff"}' />
+  <link rel="stylesheet" href="styles.css">
 
 </head>
 
-<body> 
-  <div id="table">
-    <h1>The Mom Restraunt Guide</h1>
-    <p>This is a simple guide that lists favorite restraunts and keeps track of the deals. It should
+<body>
+  <h1>The Mom Restraunt Guide</h1>
+  <p>This is a simple guide that lists favorite restraunts and keeps track of the deals. It should
     help to make meal decisions easier</p>
-    <h3>List for {{ today }}</h3>
-    <ul>
+
+     
+  <div id="table">
+    <h2>List for {{ today }} </h2>
+    <ol>
       <li v-for="item in dealList">
 
         {{ item.name }} -- {{ item.deal }}
       </li>
-    </ul>
-    <h3>The entire list</h3>
-    <ul>
-      <li v-for="item in restrauntsSorted">
-        {{ item.dow }} -- {{ item.name }} -- {{ item.deal }}
-      </li>
-    </ul>
+    </ol>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  <script type="text/javascript" src="main.js"></script>
-  <!--<script type="text/javascript" src="restraunt-data.js"></script>-->
+  <!-- <script src="vue.min.js"></script> -- production  -->
+  <script src="vue.js"></script> <!-- -- development -->
+  <script src="restraunt.js"></script>
+  <!--<script src="restraunt-data.js"></script>-->
 </body>
 </html>
